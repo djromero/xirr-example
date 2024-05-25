@@ -1,0 +1,56 @@
+GIT
+  remote: https://github.com/djromero/xirr.git
+  revision: 96c60ceb6cbde791f3b9ba95073e9bb8b7ead895
+  specs:
+    xirr (0.7.1)
+      activesupport (= 7.1.3.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.1.3.2)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
+    base64 (0.2.0)
+    bigdecimal (3.1.8)
+    byebug (11.1.3)
+    concurrent-ruby (1.2.3)
+    connection_pool (2.4.1)
+    drb (2.2.1)
+    i18n (1.14.5)
+      concurrent-ruby (~> 1.0)
+    language_server-protocol (3.17.0.3)
+    minitest (5.23.1)
+    mutex_m (0.2.0)
+    prism (0.29.0)
+    ruby-lsp (0.16.7)
+      language_server-protocol (~> 3.17.0)
+      prism (>= 0.29.0, < 0.30)
+      sorbet-runtime (>= 0.5.10782)
+    sorbet-runtime (0.5.11391)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  activesupport
+  byebug
+  minitest
+  ruby-lsp
+  xirr (= 0.7.1)!
+
+RUBY VERSION
+   ruby 3.1.0p0
+
+BUNDLED WITH
+   2.5.5
